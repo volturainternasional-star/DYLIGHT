@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "UserProgress": {
+      "title": "UserProgress",
+      "description": "Student security module completion and overall progress",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "completedModuleCount": { "type": "integer" },
+        "totalModules": { "type": "integer" },
+        "lastUpdated": { "type": "string" }
+      },
+      "required": ["userId", "completedModuleCount"]
+    },
+    "CompletedModule": {
+      "title": "CompletedModule",
+      "description": "Records individual security module completion status",
+      "type": "object",
+      "properties": {
+        "moduleId": { "type": "string" },
+        "moduleIndex": { "type": "integer" },
+        "title": { "type": "string" },
+        "numberLabel": { "type": "string" },
+        "completedAt": { "type": "string" },
+        "userId": { "type": "string" }
+      },
+      "required": ["moduleId", "moduleIndex", "title", "completedAt"]
+    }
+  },
+  "firestore": {
+    "databases": [
+      {
+        "id": "ai-studio-android-gamesecl-240c0182-21b6-4698-9191-a24bdbcd7b36",
+        "rules": "firestore.rules"
+      }
+    ]
+  }
+}

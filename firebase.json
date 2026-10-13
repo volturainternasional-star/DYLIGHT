@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-gamesecl-240c0182-21b6-4698-9191-a24bdbcd7b36",
+      "rules": "firestore.rules"
+    }
+  ]
+}

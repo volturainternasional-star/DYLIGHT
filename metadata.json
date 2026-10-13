@@ -1,0 +1,6 @@
+{
+  "name": "FAHMZY LAB",
+  "description": "Media belajar konsep keamanan game, arsitektur client-server, dan logika deteksi anti-cheat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

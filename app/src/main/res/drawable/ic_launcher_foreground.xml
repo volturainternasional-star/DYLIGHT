@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Silhouette -->
+    <path
+        android:fillColor="#4A6FA5"
+        android:pathData="M54,23 L79,32 C79,56 68,73 54,83 C40,73 29,56 29,32 Z" />
+    <!-- Inner Dark Accent Shield -->
+    <path
+        android:fillColor="#151A22"
+        android:pathData="M54,27.5 L74.5,35 C74.5,54.5 65,69 54,77.5 C43,69 33.5,54.5 33.5,35 Z" />
+    <!-- Gamepad D-pad & Buttons / Terminal Prompt Cyber Graphic -->
+    <!-- Center D-pad Cross -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M44,47 h6 v-6 h4 v6 h6 v4 h-6 v6 h-4 v-6 h-6 Z" />
+    <!-- Action Dots / Bit Nodes -->
+    <path
+        android:fillColor="#4A6FA5"
+        android:pathData="M65,45 a2.5,2.5 0 1,0 0.1,0 Z M70,51 a2.5,2.5 0 1,0 0.1,0 Z M60,51 a2.5,2.5 0 1,0 0.1,0 Z" />
+    <!-- Security Code Bracket / Prompt Accent -->
+    <path
+        android:strokeColor="#7398CC"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M48,64 L54,68 L60,64" />
+</vector>
